@@ -1,7 +1,7 @@
 #include <stdio.h>
-/** 
-*main - Guess What !!??  This is a Description 
-* Return: 0 (Success) 
+/**
+*main - Guess What !!??  This is a Description
+* Return: 0 (Success)
 */
 int main(void)
 {
