@@ -12,7 +12,7 @@ for (numbers = 0; numbers <= 9; numbers++)
 {
 printf("%d", numbers);
 }
-for (hexa = 'A'; hexa <= 'F'; hexa++)
+for (hexa = 'a'; hexa <= 'f'; hexa++)
 {
 printf("%c", hexa);
 }
