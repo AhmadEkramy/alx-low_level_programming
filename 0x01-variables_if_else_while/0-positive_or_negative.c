@@ -7,7 +7,7 @@
 
 int main(void)
 {
-int n;
+long int n;
 scanf("%d", &n);
 if (n > 0)
 {
