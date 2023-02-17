@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int loweralphabet , ubberalphabet;
+	int loweralphabet, ubberalphabet;
 
 	for (loweralphabet = 'a'; loweralphabet <= 'z'; loweralphabet++)
 	{
