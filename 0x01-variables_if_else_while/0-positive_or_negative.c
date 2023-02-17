@@ -12,17 +12,17 @@ scanf("%ld", &n);
 if (n > 0)
 {
 printf("%ld", n);
-printf(" is positive");
+printf(" is positive\n");
 }
 else if (n < 0)
 {
 printf("%ld", n);
-printf(" is negative");
+printf(" is negative\n");
 }
 else
 {
 printf("%ld", n);
-printf(" is zero");
+printf(" is zero\n");
 }
 return (0);
 }
