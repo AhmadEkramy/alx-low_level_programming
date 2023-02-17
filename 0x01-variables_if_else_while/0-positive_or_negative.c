@@ -8,20 +8,20 @@
 int main(void)
 {
 long int n;
-scanf("%d", &n);
+scanf("%ld", &n);
 if (n > 0)
 {
-printf("%d", n);
+printf("%ld", n);
 printf(" is positive");
 }
 else if (n < 0)
 {
-printf("%d", n);
+printf("%ld", n);
 printf(" is negative");
 }
 else
 {
-printf("%d", n);
+printf("%ld", n);
 printf(" is zero");
 }
 return (0);
