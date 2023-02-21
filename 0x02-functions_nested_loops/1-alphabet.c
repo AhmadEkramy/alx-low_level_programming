@@ -1,17 +1,20 @@
 #include "main.h"
-
 /**
- * print_alphabet - this is code yeah
- * Return: void
+ * main - Entry point
+ * Description: prints 'Holberton \n'
+ * Return: Always 0 (success)
  */
-void print_alphabet(void)
+int main(void)
 {
-	char letter = 'a';
+char str[] = "Holberton\n";
+int i = 0;
 
-	while (letter <= 'z')
+while (str[i] != '\0')
 	{
-		_putchar(letter);
-		letter++;
+	char c = str[i];
+
+	_putchar(c);
+	i++;
 	}
-	_putchar('\n');
+return (0);
 }
