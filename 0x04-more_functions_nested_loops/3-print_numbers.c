@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * printfnumbers - print no.
+ * print_numbers - print no.
  */
 
-void printfnumbers(void)
+void print_numbers(void)
 {
 	char i;
 
