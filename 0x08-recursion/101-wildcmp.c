@@ -7,8 +7,7 @@ int wildcmp(char *s1, char *s2);
 
 /**
  * strlen_no_wilds - string
- * @str: string 
- *
+ * @str: strin
  * Return: The length.
  */
 int strlen_no_wilds(char *str)
@@ -29,7 +28,7 @@ int strlen_no_wilds(char *str)
 
 /**
  * iterate_wild - Is
- * @wildstr: string 
+ * @wildstr: stri
  */
 void iterate_wild(char **wildstr)
 {
@@ -66,8 +65,8 @@ char *postfix_match(char *str, char *postfix)
 
 /**
  * wildcmp - Compares two strings
- * @s1: The first string 
- * @s2: The second string 
+ * @s1: The first strin
+ * @s2: The second stri
  *
  * Return: If the strings can be considered identical - 1.
  *         Otherwise - 0.
