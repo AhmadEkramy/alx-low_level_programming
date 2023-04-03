@@ -3,9 +3,7 @@
 /**
  * insert_nodeint_at_index - insert a new node
  * @head: pointer
-
  * @idx: index
-
  * @n: int
  *
  * Return: If the function fails - NULL.
